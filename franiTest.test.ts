@@ -1,6 +1,11 @@
 import { Frani } from "./franiPage";
-const mars = new Frani(); 
+const page = new Frani(); 
 
-test("Can add my stuff to github on my branch", async () => {
 
-});
+test("Click on the phones and audio", async () => {
+    await page.navigate();
+    await page.click(page.phones);
+    await page.click(page.audio);
+    await page.driver.quit()
+    
+})
