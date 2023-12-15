@@ -9,6 +9,7 @@ export class Frani extends BasePage {
     powerCables: By = By.xpath('(//a[@class="nav-box-link flex"])[5]');
     casesProtection: By = By.xpath('(//a[@class="nav-box-link flex"])[6]');
     bundles: By = By.xpath('(//a[@class="nav-box-link flex"])[7]');
+    store: By = By.xpath('(//li[@class="right-item"])[1]');
 
 
     constructor(){

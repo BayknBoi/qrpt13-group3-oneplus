@@ -15,10 +15,11 @@ test("Click on the tablets and gear", async () => {
     
 })
 
-test("Click on the power cables, cases and protection and bundles", async () => {
+test("Click on the power cables, cases and protection and bundles and store", async () => {
     await page.click(page.powerCables);
     await page.click(page.casesProtection);
     await page.click(page.bundles);
+    await page.click(page.store);
     await page.driver.quit()
     
 })
